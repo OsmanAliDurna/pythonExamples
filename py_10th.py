@@ -1,9 +1,13 @@
 isim = "Osman Ali"
+
 print("Benim ismim : {}".format(isim))
 
 soyisim = "Durna"
 
+# .format ile gösterimi :
 print("İsim Soyisim : {} {}".format(isim, soyisim))
+# fstring ile gösterimi : 
+print(f"-->> Bu bir fstring işlemidir : İsim Soyisim : {isim} {soyisim}")
 
 print("İsim Soyisim : {i} {s}".format(i = isim, s = soyisim))
 
